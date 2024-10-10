@@ -1,0 +1,120 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'popping',sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),url(background.png);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    padding-left: 5%;
+    padding-top: 5px;
+    margin: 5px;
+}
+.nav{
+    position: relative;
+    float: right;
+    padding-right: 40px;
+    padding-top: 20px;
+    margin-right: 90px;
+}
+.nav li{
+   
+    list-style: none;
+    display: inline-block; /*margin left:60px*/
+}
+
+.nav li a{
+    text-decoration: none;
+    color: #fff;
+    margin:10px;
+    font-size: 17px;
+    padding: 20px;
+}
+.nav li a:hover{
+    border-bottom: 3px solid coral;
+    transition: .2s;
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    color: #fff;
+    align-items: center;
+    padding: 30px;
+
+}
+.col{
+    flex-basis: 50%;
+    box-sizing: border-box;
+    margin-right: 20px;
+}
+h1{
+    font-size: 100px;
+}
+p{
+    color: #fff;
+    font-size: 11px;
+    line-height: 15px;
+
+}
+.button{
+    
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+    background-position: center;
+    background-size: cover;
+}
+.card1{
+    background-image: url(pic-1.png);
+}
+.card2{
+    background-image: url(pic-2.png);
+}
+.card3{
+
+    
+    background-image: url(pic-3.png);
+}
+.card4{
+    background-image: url(pic-4.png);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: #fff;
+    text-shadow: 0 0 5px #999;
+
+}
+card p{
+    text-shadow: 0 0 15px #000;
+    font-size: 8px;
+}
